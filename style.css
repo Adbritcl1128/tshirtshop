@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+body {
+  margin: auto;
+}
+
+main {
+  float: left;
+  margin: 0;
+
+}
+
+section {
+  border: 2px solid lightblue;
+  height: 320px;
+  width: 290px;
+  border-bottom: 2px solid lightblue;
+  box-sizing: border-box;
+}
+
+nav {
+  box-sizing: border-box;
+}
+
+li {
+  border: 2px solid lightblue;
+  display: inline block;
+  height: 45px;
+  width: 58px;
+  list-style: none;
+  float: left;
+  border-top: none;
+  box-sizing: border-box;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+img {
+  width: 250px;
+  height: 265px;
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+p {
+  float: right;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.fa-bath {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 0.2em;
+  color: lightblue
+}
+
+li.dropdown:hover {
+  border: 2px solid lightblue;
+}
+
+li:hover {
+  background-color: blue;
+  border: 2px solid lightblue;
+
+}
+
+.dropdown {
+    position: relative;
+    opacity: 1;
+    height: 4em;
+    width: 59px;
+    transition: all 1.5s linear;
+    bottom: 165px;
+    right: 4px;
+    border: none;
+}
+
+
+
+article {
+  float: right;
+  font-size: 1em;
+  border: 2px solid lightblue;
+  margin-right: 0.1em;
+  border-right: none;
+  color: lightblue;
+}
+
+aside {
+  clear: both;
+  padding-top: 0.5em;
+}
+
+
+article:hover {
+  background-color: lightblue;
+}
+
+h1 {
+  margin: 0;
+  float: left;
+}
+
+.dropdowntwo {
+  position: relative;
+  opacity: 1;
+  height: 65px;
+  width: 75px;
+  transition: all 1.5s linear;
+  bottom: 103px;
+  right: 10px;
+  border: none;
+
+
+}
