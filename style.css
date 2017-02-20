@@ -8,7 +8,7 @@ body {
 
 main {
   float: left;
-  margin: 0;
+  margin: 1em;
 
 }
 
@@ -16,7 +16,7 @@ section {
   border: 2px solid lightblue;
   height: 320px;
   width: 290px;
-  border-bottom: 2px solid lightblue;
+  border-bottom: none;
   box-sizing: border-box;
 }
 
@@ -26,12 +26,11 @@ nav {
 
 li {
   border: 2px solid lightblue;
-  display: inline block;
   height: 45px;
   width: 58px;
   list-style: none;
   float: left;
-  border-top: none;
+
   box-sizing: border-box;
 
 }
@@ -53,13 +52,15 @@ p {
   float: right;
   margin: 0;
   font-size: 1.5em;
+  color: lightblue;
+  font-weight: bold;
 }
 
 .fa-bath {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
-  padding-top: 0.2em;
-  color: lightblue
+  padding-top: 0.3em;
+  color: lightblue;
 }
 
 li.dropdown:hover {
@@ -68,19 +69,20 @@ li.dropdown:hover {
 
 li:hover {
   background-color: blue;
-  border: 2px solid lightblue;
 
 }
 
 .dropdown {
     position: relative;
-    opacity: 1;
-    height: 4em;
-    width: 59px;
-    transition: all 1.5s linear;
-    bottom: 165px;
+    opacity: 0;
+    height: 7.7em;
+    width: 57px;
+    transition: all 1s linear;
+    bottom: 220px;
     right: 4px;
-    border: none;
+    border: 2px solid lightblue;
+    border-bottom: none;
+    background-color: white;
 }
 
 
@@ -107,17 +109,70 @@ article:hover {
 h1 {
   margin: 0;
   float: left;
+  color: lightblue;
+  font-weight: normal;
 }
 
 .dropdowntwo {
   position: relative;
-  opacity: 1;
+  opacity: 0;
   height: 65px;
   width: 75px;
-  transition: all 1.5s linear;
+  transition: all 1s linear;
   bottom: 103px;
   right: 10px;
   border: none;
+}
 
+.fa-bath:hover .dropdown {
+  opacity: 1;
+}
 
+.fa-bath:hover .dropdowntwo {
+  opacity: 1;
+}
+
+.dropdowntwo {
+  border: 2px solid lightblue;
+  width: 116px;
+  height: 68px;
+  font-size: 0.8em;
+  right: 25px;
+  background-color: white;
+}
+
+.fa-wrench {
+  border: none;
+}
+
+.fa-plane {
+  border: none;
+}
+
+.fa-fighter-jet {
+  border: none;
+}
+
+.fa-shopping-cart {
+  border: none;
+}
+
+.fa-envelope-open {
+  border: none;
+}
+
+.fa-eyedropper {
+  border: none;
+}
+
+.fa-glass {
+  border: none;
+}
+
+.fa-university {
+  border: none;
+}
+
+.nohighlight:hover {
+  background-color: white;
 }
